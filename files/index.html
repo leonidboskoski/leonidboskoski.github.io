@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Domasna Rabota ONVD</title>
+    <link rel="stylesheet" href="/css/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,800;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="nav-bar" id="nav-bar">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a onclick="scrollToTarget()">About</a></li>
+            <li><a onclick="scrollToTarget1()">Education</a></li>
+            <li><a onclick="scrollToTarget2()">Skills</a></li>
+            <li><a onclick="scrollToTarget3()">Contact</a></li>
+        </ul>
+    </header>
+    
+    <div class="container" id="particles-js">
+        <div class="item leftside">
+            <h1>Hi <a href="" class="there">There,</a></h1>
+            <h1>I'm Leonid <a href="" class="surname">Boshkoski</a></h1>
+            <h2>I'm into <span class="auto-type"></span></h2>
+            <div class="btn" onclick="scrollToTarget()">
+                <a onclick="scrollToTarget()">About Me</a>
+            </div>
+
+            <div class="social">
+                <ul>
+                    <li><a href="https://www.facebook.com/leonid.boskoski/" class="fa fa-facebook" target="_blank"></a></li>
+                    <li><a href="https://www.instagram.com/leonid.boskoski/" class="fa fa-instagram" target="_blank"></a></li>
+                    <li><a href="https://twitter.com/leonidboskoski1" class="fa fa-twitter" target="_blank"></a></li>                
+                </ul>
+            </div>
+            
+        </div>
+        <div class="item rightside">
+            <div class="picture"><img src="../img/photo.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="about-me" id="target"><h1><a class="fa fa-user"></a> About <a href="" class="me">Me</a></h1></div>
+
+    <div class="about">
+        <div class="item about-photo">
+            <img class="photo1" src="../img/aboutme.jpg" alt="">
+        </div>
+
+        <div class="item text" id="">
+            <h2>I'm <a href="" id=" ">Leonid</a></h2>
+            <h3>HTML & CSS learner</h3>
+            <p>I am a student currently studying in Faculty of Computer Science & Engineering. I am 20 years old, born in Prilep,Macedonia. My hobbies are hanging out with my friends, playing guitar and a lot of gaming. I am very passionate about learning more about Web Development and sharpening my skills at coding.</p>
+            <p><a href="">Email:</a> leuvce@gmail.com</p>
+            <p><a href="">Number:</a> +389 77 698 ***</p>
+            <div class="cv">
+                <a href="../img/cv.pdf" class="cv-text" target="_blank">My CV</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="education">
+        <div class="about-me" id="target1"><h1><a class="fa fa-graduation-cap"></a> My <a href="" class="me">Education</a></h1></div>
+        <div class="separator">
+            <div class="item leftside">
+                <div class="leftside img">
+                    <img src="../img/gimnazija.jpg" alt="" class="gymnasium">
+                </div>
+                <div class="leftside text">
+                    <h1>Gymnasium "Mirche Acev" - Prilep</h1>
+                    <p>2018-2022 | Completed</p>
+                </div>
+            </div>
+
+            <div class="item rightside">
+                <div class="rightside img">
+                    <img src="../img/finki.png" alt="">
+                </div>
+
+                <div class="rightside text">
+                    <h1>Faculty of Computer Science & Engineering</h1>
+                    <p>2022-2026 | Pursuing</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="skills" id="target2">
+        <div class="about-me" id=""><h1><a class="fa fa-code"></a> My <a href="" class="me">Skills</a></h1></div>
+        <div class="skills container">
+            <div class="prog c">
+                <img src="../img/c.png" alt="">
+                <h1>C</h1>
+            </div>
+            <div class="prog cplus">
+                <img src="../img/c (1).png" alt="">
+                <h1>C++</h1>
+            </div>
+            <div class="prog html">
+                <img src="../img/html5.png" alt="">
+                <h1>HTML5</h1>
+            </div>
+            <div class="prog css">
+                <img src="../img/css.png" alt="">
+                <h1>CSS</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div class="contact">
+        <div class="about-me" id="target3"><h1><a class="fa fa-headphones"></a> Contact <a href="" class="me">Me</a></h1></div>
+
+        <div class="contacts cont">
+            <div class="item leftside">
+                <img src="../img/contacts.jpg" alt="">
+            </div>
+            <div class="item rightside">
+                
+                <form id="contact-form">
+      
+                    <div class="form-group">
+                      <div class="field">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <i class='fa fa-user'></i>
+                      </div>
+                      <div class="field">
+                        <input type="text" name="email" placeholder="Email" required>
+                        <i class='fa fa-envelope'></i>
+                      </div>
+                      <div class="field">
+                        <input type="text" name="phone" placeholder="Phone">
+                        <i class='fa fa-phone'></i>
+                      </div>
+                      <div class="message">
+                      <textarea placeholder="Message" name="message" required></textarea>
+                      <i class="fa fa-comment"></i>
+                      </div>
+                      </div>
+                    <div class="button-area">
+                      <button type="submit">
+                        Submit <i class="fa fa-paper-plane"></i></button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="item item1">
+            <h1>Leonid's Portfolio</h2>
+            <p>This is a portfolio webiste built for homework.</p>
+            <p>Thank you for visiting my portfolio.</p>
+        </div>
+        <div class="item item2">
+            <h1>Quick links</h1>
+            <ul>
+                <li><a onclick="scrollToTarget4()"class="fa fa-arrow-right"> Home</a></li>
+                <li><a onclick="scrollToTarget()" class="fa fa-arrow-right"> About me</a></li>
+                <li><a onclick="scrollToTarget1()" class="fa fa-arrow-right"> Education</a></li>
+                <li><a onclick="scrollToTarget2()" class="fa fa-arrow-right"> Skills</a></li>
+                <li><a onclick="scrollToTarget3()" class="fa fa-arrow-right"> Contacts</a></li>
+            </ul>
+        </div>
+        <div class="item item3">
+            <h1>Contact info</h1>
+            <p><a class="fa fa-phone"></a> +38977698***</p>
+            <p><a class="fa fa-envelope"></a> leuvce@gmail.com</p>
+            <p><a class="fa fa-map-marker"></a> Prilep, Macedonia</p>
+        </div>
+    </footer>
+
+    
+    <script src="../js/particles.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings: ["web development","coding","eating","sleeping","playing guitar"],typeSpeed: 150,backSpeed: 150,loop:true
+        })
+    </script>
+
+
+
+    <script type="text/javascript">
+
+        function scrollToTarget() {
+  var element = document.getElementById('target');
+  if (element) {
+    element.scrollIntoView({
+      behavior: 'smooth', 
+      block: 'start', 
+      inline: 'nearest' 
+    });
+  }
+}
+    </script>
+
+<script type="text/javascript">
+
+    function scrollToTarget1() {
+var element = document.getElementById('target1');
+if (element) {
+element.scrollIntoView({
+  behavior: 'smooth', 
+  block: 'start', 
+  inline: 'nearest' 
+});
+}
+}
+</script>
+
+
+<script type="text/javascript">
+
+    function scrollToTarget2() {
+var element = document.getElementById('target2');
+if (element) {
+element.scrollIntoView({
+  behavior: 'smooth', 
+  block: 'start', 
+  inline: 'nearest' 
+});
+}
+}
+</script>
+
+<script type="text/javascript">
+
+    function scrollToTarget3() {
+var element = document.getElementById('target3');
+if (element) {
+element.scrollIntoView({
+  behavior: 'smooth', 
+  block: 'start', 
+  inline: 'nearest' 
+});
+}
+}
+</script>
+
+<script type="text/javascript">
+
+    function scrollToTarget4() {
+var element = document.getElementById('nav-bar');
+if (element) {
+element.scrollIntoView({
+  behavior: 'smooth', 
+  block: 'start', 
+  inline: 'nearest' 
+});
+}
+}
+</script>
+
+</body>
+</html>
